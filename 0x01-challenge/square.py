@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/python3i
 
 class Square:
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
         self.width = width
         self.height = height
 
@@ -20,4 +20,4 @@ if __name__ == "__main__":
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.perimeter_of_my_square())
+    print(s.perimeter_of_my_square()
