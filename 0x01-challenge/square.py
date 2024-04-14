@@ -1,7 +1,7 @@
 #!/usr/bin/python3i
 
 class Square:
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
         self.width = width
         self.height = height
 
